@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_activity_bg"
+    android:orientation="vertical"
+    tools:context=".HighscoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="72dp"
+            android:background="@drawable/icon_back"
+            android:onClick="onClickBack" />
+
+        <TextView
+            android:id="@+id/highscorestextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="112dp"
+            android:fontFamily="@font/joystix_monospace"
+            android:gravity="center"
+            android:text="@string/highscores"
+            android:textColor="@color/android_gray"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        >
+
+        <TableLayout
+            android:id="@+id/table_highscores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

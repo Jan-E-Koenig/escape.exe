@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light_blue">#daf2e9</color>
+    <color name="green">#52f14e</color>
+    <color name="orange">#ae691b</color>
+    <color name="android_gray">#323233</color>
+    <color name="android_light_blue">#95e1cd</color>
+    <color name="android_dark_blue">#57ad96</color>
+    <color name="bg_dark_blue">#1c2638</color>
+    <color name="button_highlight">#4B4B4D</color>
+
+</resources>

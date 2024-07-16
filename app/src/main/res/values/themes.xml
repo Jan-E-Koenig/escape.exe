@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MMUESB10" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:editTextStyle">@style/edittext</item>
+        <item name="android:checkboxStyle">@style/checkbox</item>
+        <!--<item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+</resources>

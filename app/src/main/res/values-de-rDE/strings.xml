@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">escape.exe</string>
+    <string name="new_game">Neues Spiel</string>
+    <string name="continue_game">Fortsetzen</string>
+    <string name="highscores">Bestenliste</string>
+    <string name="quit_game">terminiere</string>
+    <string name="backtomain">Hautpmenü</string>
+    <string name="player_died">Simulation erfolglos</string>
+    <string name="pause_game">.exe pausiert</string>
+    <string name="skip_intro">Tappe hier zum überspringen</string>
+    <string name="start">start</string>
+    <string name="continue_exe">Programm fortsetzen?</string>
+    <string name="deaths_d">Simulationen:</string>
+    <string name="name_d">Name:</string>
+    <string name="new_exe">Neues Programm erstellen</string>
+    <string name="override">Überschreiben</string>
+    <string name="controls">Steuerung</string>
+    <string name="control_jump">Tappe um zu\nspringen</string>
+    <string name="control_gravity">Tappe um die\nGravitation zu\nändern</string>
+    <string name="play_tutorial">Spiele Tutorial</string>
+
+    <string name="new_game_warning_title">Spielstand überschreiben?</string>
+    <string name="new_game_warning">Warnung: Dies überschreibt den aktuellen Spielstand</string>
+    <string name="new_game_final_warning">Existierenden Spielstand wirklich überschreiben?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="deaths_level">Simulationen</string>
+    <string name="deaths_total">Sim. Gesamt</string>
+    <string name="enter_player_name">benenne den Spielstand</string>
+    <string name="player">Spieler*in</string>
+    <string name="game_beat">Entkommen</string>
+    <string name="thanks">Danke!</string>
+
+    <string name="thanks_for_playing">Danke, dass du escape.exe gespielt hast!</string>
+    <string name="tap_to_continue">Tappe um fortzufahren.</string>
+
+    <string name="splashscreen_executedrun">Lauf ausgeführt</string>
+    <string name="splashscreen_nextlevel">Nächstes Level</string>
+
+    <!--STAGE NAMES-->
+    <string name="stage_5">Tutorial - Gravitation</string>
+    <string name="stage_4">Tutorial - Springen </string>
+    <string name="stage_3">Tutorial - Beschleuniger</string>
+    <string name="stage_2">Tutorial - Sprungfeld</string>
+    <string name="stage_1">Tutorial - Kombination</string>
+    <string name="stage1">Andere Seite des Lasers</string>
+    <string name="stage2">Umgekehrter Balanceakt</string>
+    <string name="stage3">Schneller Invertierer</string>
+    <string name="stage4">Gib Gas und Spring!</string>
+    <string name="stage5">Kammer der Laser</string>
+    <string name="stage6">Ups! Falscher Weg</string>
+    <string name="stage7">Bergsteigen</string>
+    <string name="stage8">Die Fluchtkanone</string>
+    <string name="stage9">-</string>
+</resources>
+

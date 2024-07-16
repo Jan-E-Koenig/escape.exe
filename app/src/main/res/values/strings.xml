@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">escape.exe</string>
+    <string name="new_game">New Game</string>
+    <string name="continue_game">Continue</string>
+    <string name="highscores">Highscores</string>
+    <string name="quit_game">terminate</string>
+    <string name="backtomain">Main Menu</string>
+    <string name="player_died">Simulation failed</string>
+    <string name="pause_game">.exe Paused</string>
+    <string name="skip_intro">Tap here to skip</string>
+    <string name="start">start</string>
+    <string name="continue_exe">Continue Executable?</string>
+    <string name="deaths_d">Simulations:</string>
+    <string name="name_d">Name:</string>
+    <string name="new_exe">Create New Executable</string>
+    <string name="override">Override</string>
+    <string name="controls">Controls</string>
+    <string name="control_jump">Tap to jump</string>
+    <string name="control_gravity">Tap to change\ngravity</string>
+    <string name="play_tutorial">Play Tutorial</string>
+
+    <string name="new_game_warning_title">Override existing File?</string>
+    <string name="new_game_warning">Warning: This will overwrite the current file</string>
+    <string name="new_game_final_warning">Are you sure you want to overwrite the existing file?</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="deaths_level">Simulations</string>
+    <string name="deaths_total">Sim. Total</string>
+    <string name="enter_player_name">Name this file</string>
+    <string name="player">Player</string>
+    <string name="game_beat">Escaped</string>
+    <string name="thanks">Thanks!</string>
+
+    <string name="thanks_for_playing">Thank you for playing escape.exe!</string>
+    <string name="tap_to_continue">Tap to continue.</string>
+
+    <string name="splashscreen_executedrun">Run executed</string>
+    <string name="splashscreen_nextlevel">Next Level</string>
+
+    <!--STAGE NAMES-->
+    <string name="stage_5">Tutorial - Gravity</string>
+    <string name="stage_4">Tutorial - Jump</string>
+    <string name="stage_3">Tutorial - Speed Ups</string>
+    <string name="stage_2">Tutorial - Jump Fields</string>
+    <string name="stage_1">Tutorial - Combination</string>
+    <string name="stage1">Other Side of the Laser</string>
+    <string name="stage2">Inverted Balancing</string>
+    <string name="stage3">Speed Inverter</string>
+    <string name="stage4">Speedjump</string>
+    <string name="stage5">Chamber of Lasers</string>
+    <string name="stage6">Oops! Wrong Way</string>
+    <string name="stage7">Rockclimbing</string>
+    <string name="stage8">Escaping Cannonball</string>
+    <string name="stage9">-</string>
+</resources>

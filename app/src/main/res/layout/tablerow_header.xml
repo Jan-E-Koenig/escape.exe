@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/aaah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.37"
+        android:fontFamily="@font/joystix_monospace"
+        android:text="@string/game_beat"
+        android:textColor="@color/android_gray"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bbbh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.37"
+        android:fontFamily="@font/joystix_monospace"
+        android:text="@string/deaths_total"
+        android:textColor="@color/android_gray"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ccch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26"
+        android:fontFamily="@font/joystix_monospace"
+        android:text="@string/player"
+        android:textColor="@color/android_gray"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</TableRow>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_activity_bg"
+    tools:context=".SubNewActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/joystix_monospace"
+        android:gravity="center"
+        android:text="@string/new_exe"
+        android:textColor="@color/android_gray"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="onClickStart"
+        android:text="@string/start"
+        app:layout_constraintBottom_toTopOf="@+id/btn_backToMain"
+        app:layout_constraintEnd_toStartOf="@+id/center_hor2"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/center_hor2" />
+
+    <Button
+        android:id="@+id/btn_backToMain"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:onClick="onClickBackToMain"
+        android:text="@string/backtomain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/center_hor2"
+        app:layout_constraintStart_toStartOf="@+id/center_hor2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/center_hor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="@string/enter_player_name"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="textFilter"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tutorialCheckbox"
+        app:layout_constraintEnd_toStartOf="@+id/center_hor2"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/center_hor2" />
+
+    <CheckBox
+        android:id="@+id/tutorialCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:checked="false"
+        android:onClick="onClickCheckbox"
+        android:text="@string/play_tutorial"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start"
+        app:layout_constraintEnd_toStartOf="@+id/center_hor2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/center_hor2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

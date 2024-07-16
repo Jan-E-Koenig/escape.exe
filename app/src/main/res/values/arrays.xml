@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="collision">
+        <!--0: None, 1: Solid, 2: Dead, 3: X-Dir, 4: Speedup-Right, 5: Speedup-Left, 6: Finish, 7: No-Move, 8: High-Jump-->
+
+        <!--Column 0-->
+        <item>1</item><item>1</item><item>1</item><item>4</item><item>4</item><item>2</item><item>2</item><item>1</item><item>0</item><item>0</item>
+        <!--Column 1-->
+        <item>1</item><item>1</item><item>1</item><item>4</item><item>4</item><item>2</item><item>2</item><item>2</item><item>0</item><item>0</item>
+        <!--Column 2-->
+        <item>1</item><item>1</item><item>1</item><item>4</item><item>4</item><item>2</item><item>2</item><item>1</item><item>0</item><item>0</item>
+        <!--Column 3-->
+        <item>1</item><item>1</item><item>1</item><item>5</item><item>5</item><item>2</item><item>2</item><item>1</item><item>0</item><item>0</item>
+        <!--Column 4-->
+        <item>0</item><item>0</item><item>0</item><item>5</item><item>5</item><item>2</item><item>2</item><item>2</item><item>0</item><item>0</item>
+        <!--Column 5-->
+        <item>0</item><item>0</item><item>0</item><item>5</item><item>5</item><item>8</item><item>8</item><item>1</item><item>0</item><item>0</item>
+        <!--Column 6-->
+        <item>3</item><item>0</item><item>2</item><item>1</item><item>2</item><item>2</item><item>2</item><item>1</item><item>2</item><item>1</item>
+        <!--Column 7-->
+        <item>0</item><item>3</item><item>2</item><item>1</item><item>2</item><item>2</item><item>2</item><item>1</item><item>2</item><item>1</item>
+        <!--Column 8-->
+        <item>6</item><item>0</item><item>2</item><item>1</item><item>2</item><item>0</item><item>0</item><item>0</item><item>0</item><item>0</item>
+        <!--Column 9-->
+        <item>0</item><item>6</item><item>2</item><item>0</item><item>0</item><item>0</item><item>0</item><item>0</item><item>0</item><item>7</item>
+    </integer-array>
+</resources>
