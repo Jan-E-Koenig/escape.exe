@@ -1,3 +1,5 @@
+escape.exe wurde im Rahmen der LVA Multimedia (SS 2021) an der TU Wien umgesetzt. 
+
 # 1. Gruppeninformation
 Vorname | Nachname | Matrikelnummer | Studienkennzahl | E-Mail
 --- | --- | --- | --- | ---
