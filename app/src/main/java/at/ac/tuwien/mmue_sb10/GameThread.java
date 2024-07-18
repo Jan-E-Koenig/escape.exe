@@ -1,3 +1,5 @@
+// source: AnimationTutorial2021
+
 /**
  * Processes the game state therefore GameState must be delivered to this class.
  * This class handles frametime to ensure that the app is running smoothly on all devices
