@@ -1,4 +1,4 @@
-// source: PersistentStorageExample2021
+// source: PersistentStorageExample2021 der UE Multimedia 2021 (TU Wien)
 
 package at.ac.tuwien.mmue_sb10.persistence;
 
