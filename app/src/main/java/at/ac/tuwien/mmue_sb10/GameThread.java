@@ -1,4 +1,4 @@
-// source: AnimationTutorial2021
+// source: AnimationTutorial2021 der UE Multimedia 2021 (TU Wien)
 
 /**
  * Processes the game state therefore GameState must be delivered to this class.
